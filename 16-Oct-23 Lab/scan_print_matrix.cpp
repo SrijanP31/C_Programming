@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(){
-	int a[2][2];
+	int n;
+	printf("Enter ther value of n:");
+	scanf("%d", &n);
+	int a[n][n];
 	printf("Enter values of matrix: \n");
 	for(int i=0;i<2;i++){
 		for(int j=0;j<2;j++){
